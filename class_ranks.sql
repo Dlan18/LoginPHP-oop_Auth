@@ -38,15 +38,6 @@ CREATE TABLE `scores` (
 --
 
 INSERT INTO `scores` (`id`, `student_id`, `score`) VALUES
-(20, 20, 87),
-(21, 21, 85),
-(22, 22, 87),
-(24, 24, 83),
-(25, 25, 88),
-(26, 26, 77),
-(27, 27, 90),
-(28, 28, 99),
-(29, 29, 20);
 
 -- --------------------------------------------------------
 
@@ -64,16 +55,6 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `name`) VALUES
-(20, 'Abdurrahman Faiz'),
-(21, 'Achmad Fauzan'),
-(22, 'Adystya Anandita'),
-(24, 'Aisyah Salsabila'),
-(25, 'Aldo Ahmad Hirzi'),
-(26, 'Ali Zainal Abidin Sahab'),
-(27, 'sdwww'),
-(28, 'esa'),
-(29, 'salmeng');
-
 -- --------------------------------------------------------
 
 --
@@ -92,20 +73,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`) VALUES
-(5, 'paiz', 'paiz', '123'),
-(6, 'p', 'p', 'p'),
-(7, 'wd', 'wdd', '1'),
-(8, 't', 't', '1'),
-(9, 'p', 'pp', '$2y$10$y/kgQ2M.n1PQebhK5tmR5uYD0Mp.5biqIDYfuDO5lWsCIfyS.xtsW'),
-(10, 'oi', 'salmeng', '$2y$10$hdanYzeU2xq1EuM9fXktgOEcF0qXTE.1NJ4bBLmCX3Q4wTELrQL4W'),
-(11, 'oi', 'tes', '$2y$10$H9UEt4QngHqEsHCvnirVfu.aMgjz./nScT0Avd552D.EC21zuXLue'),
-(12, 'test', 'ya', '$2y$10$cYGDXPW238rKXBPtrb76iuvcvOkGdCCNfV/bZdGhaZTFMau5rAEYW'),
-(13, 'ffrfr', 'erfr', '$2y$10$88FClGwdKTonZnZcKbz/9O2XOmFHjRBFA2Rox9p0rQ136pt041c8e'),
-(14, 'q', 'q', '$2y$10$0o8HkDL1S/mFKFQU7p/4x.ibyCxeZ0Ki8gXWSPiMDGugxscm5IpMW'),
-(15, 'asaas', 'ds', '$2y$10$UkoyZMc5x1AEf9yZHpErzefdzq7YM40O9.uD2LqCVpvtBHfaMrbre'),
-(16, 'dlan', 'dlan', '$2y$10$gUR5/qjGuQVwDvetHhXSdu86HcJegly1Um79j1uOArchy3DZZvMza'),
-(17, 'jj', 'jj1', '$2y$10$ppuqK/A6LkhVnv3NrSLZOej0CdW7RmMAlNOC4q9ixjf1nl4u6Pvye'),
-(18, 'fadlan', 'fdln', '$2y$10$VvmLFsJkpu1LcvnEo8v6kO1JsJBhkeZhDBSaD8..OUFO.Lw0ZhQhO');
 
 --
 -- Indexes for dumped tables
